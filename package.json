@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "node node_modules/@playwright/test/cli.js --config=playwright.config.ts"
+  "test": "playwright test"
   },
   "keywords": [],
   "author": "",
