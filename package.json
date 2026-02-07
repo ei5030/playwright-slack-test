@@ -1,0 +1,20 @@
+{
+  "name": "ashir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "node node_modules/@playwright/test/cli.js --config=playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.1.0"
+  },
+  "dependencies": {
+    "playwright-slack-report": "^1.1.100"
+  }
+}
