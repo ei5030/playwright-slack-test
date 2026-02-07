@@ -9,7 +9,7 @@ export default defineConfig({
     [
       'playwright-slack-report',
       {
-        slackWebHookUrl: 'https://hooks.slack.com/services/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',
+        slackWebHookUrl: 'https://hooks.slack.com/services/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'
         sendResults: 'always',
       },
     ],
