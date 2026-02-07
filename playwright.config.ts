@@ -3,8 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
-  
- reporter: [
+  reporter: [
     ['line'],
     [
       'playwright-slack-report',
@@ -14,18 +13,13 @@ export default defineConfig({
       },
     ],
   ],
-
   use: {
-    launchOptions: {
-      slowMo: 500,
-    },
     trace: 'on-first-retry',
   },
-
   projects: [
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
   ],
-});// test
+});
